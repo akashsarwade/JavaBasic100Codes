@@ -1,0 +1,31 @@
+package com.java.collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class VAibhav {
+	public static void main(String[] args) {
+
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(1);
+		al.add(2);
+		al.add(3);
+		al.add(4);
+		al.add(5);
+
+		Iterator<Integer> itr = al.iterator();
+		while (itr.hasNext()) {
+			if (itr.next() == 3) {
+//				itr.remove();
+				al.remove(3);
+
+			}
+
+		}
+		System.out.println(al);
+	}
+
+}
+
+
+

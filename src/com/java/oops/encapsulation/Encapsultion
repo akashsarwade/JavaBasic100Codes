@@ -1,0 +1,14 @@
+Encapsulation
+
+Encapsulation in java is a mechanism of wrapping the data(variable) and code
+acting on the data (method) together as a single entity
+
+Steps to achieve Encapsulation
+1. 	Declare the variable of class Encapsulation a private
+2.	provide public getter and setters method to modify view the variables values
+
+
+What is Data Hiding ?
+Making data members as a private is called data hiding.
+other classes won't access this class data
+
